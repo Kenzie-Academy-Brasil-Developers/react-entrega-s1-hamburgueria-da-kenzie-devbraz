@@ -1,0 +1,133 @@
+.Card-box {
+
+  min-width: 300px;
+  max-width: 350px;
+  background: #FFFFFF;
+  border: 2px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 15px;
+  flex: 1;
+
+}
+
+.Img-card {
+
+  width: 140px;
+  height: 140px;
+
+}
+
+
+
+.Img-box {
+
+  background: #F5F5F5;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+.Information-box {
+
+  height: 60%;
+  margin: 20px;
+
+}
+
+.Snack-name,
+.Snack-class,
+.Snack-value,
+.Snack-button {
+
+  width: auto;
+  height: auto;
+
+}
+
+.Snack-name {
+
+  margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+
+}
+
+.Snack-class {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+
+}
+
+.Snack-value {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #27AE60;
+
+}
+
+@media screen and (min-width: 400px) {}
+
+@media screen and (min-width: 800px) {
+
+  .Card-box {
+
+    width: 30%;
+    margin-right: 1.5%;
+    height: 48%;
+    margin-bottom: 0.5%;
+
+  }
+
+  .Snack-name {
+
+    margin-top: 0;
+    margin-bottom: 25px;
+
+  }
+
+  .Snack-class {
+
+    margin-top: 0;
+    margin-bottom: 25px;
+
+
+  }
+
+  .Snack-value {
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+
+  }
+
+  .Snack-button {
+
+    margin-top: 10px;
+
+  }
+
+
+}

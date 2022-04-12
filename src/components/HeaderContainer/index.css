@@ -1,0 +1,102 @@
+.App-header {
+
+  height: 20%;
+  background-color: #F5F5F5;
+  width: 100%;
+
+}
+
+.Div-logo {
+
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+
+}
+
+.Logo-burguer,
+.Logo-kenzie {
+
+  text-align: center;
+  align-items: center;
+  height: 30px;
+  width: auto;
+  margin-top: 30px;
+
+}
+
+.Logo-burguer {
+
+  font-family: 'Inter', sans-serif;
+  color: #333333;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 1%;
+
+}
+
+.Logo-kenzie {
+
+  font-family: 'Inter', sans-serif;
+  color: #EB5757;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 1%;
+
+}
+
+.Div-input {
+
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+@media screen and (min-width: 400px) {}
+
+@media screen and (min-width: 800px) {
+
+  .App-header {
+
+    display: flex;
+    height: 10%;
+
+  }
+
+  .Div-logo {
+
+    justify-content: flex-start;
+    margin-left: 5%;
+
+  }
+
+  .Div-input {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    height: 100%;
+
+  }
+
+  .Input-header {
+
+    width: 49.2%;
+
+  }
+
+  .Button-header {
+
+    left: 87.5%;
+    top: 2.7%;
+    margin-top: 0;
+    margin-left: 0;
+
+  }
+
+}

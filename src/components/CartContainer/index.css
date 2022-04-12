@@ -1,0 +1,161 @@
+.Cart-box {
+
+  display: flex;
+  flex-direction: column;
+  min-height: 35%;
+  max-height: 700px;
+  width: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+.Cart-top {
+
+  display: flex;
+  height: 65px;
+  width: auto;
+  text-align: left;
+  align-items: center;
+  background: #27AE60;
+  border-radius: 5px 5px 0px 0px;
+  padding-left: 20px;
+
+}
+
+.Cart-botton-h3 {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 5px;
+  text-align: center;
+  color: #333333;
+  background: #F5F5F5;
+
+}
+
+.Cart-botton-h4 {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 5px;
+  text-align: center;
+  color: #828282;
+
+}
+
+.Div-cart-botton {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #F5F5F5;
+  border-radius: 0px 0px 5px 5px;
+  height: 158px;
+  overflow: scroll;
+}
+
+.Cart-top-name {
+
+  height: auto;
+  width: auto;
+
+}
+
+.Cart-top-name {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+
+}
+
+.Div-total-remove {
+
+  height: 50%;
+  border-top: 2px solid #E0E0E0;
+
+}
+
+.Div-total {
+
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 0;
+
+}
+
+.Total {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+
+}
+
+.Total-value {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+
+}
+
+.Div-remove {
+
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+
+}
+
+.Remove-button {
+
+  background: #E0E0E0;
+  border: 2px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 60px;
+  width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+
+}
+
+@media screen and (min-width: 400px) {}
+
+@media screen and (min-width: 800px) {
+
+  .Cart-box {
+
+    margin-right: 5%;
+    width: 25%;
+    margin: 25px 5% 25px 25px;
+
+  }
+
+}
