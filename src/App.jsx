@@ -23,8 +23,7 @@ function App() {
   const showProducts = (searchInput) => {
 
     const filter = products.filter((product) => product.name.toLowerCase() === searchInput.toLowerCase() || product.category.toLowerCase() === searchInput.toLowerCase())
-    const includes = searchInput.includes(filter)
-    setFilteredProducts(includes)
+    setFilteredProducts(filter)
 
   }
 
