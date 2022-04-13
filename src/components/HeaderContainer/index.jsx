@@ -15,7 +15,7 @@ const HeaderContainer = ({ showProducts }) => {
 				<h3 className='Logo-kenzie'>Kenzie</h3>
 			</div>
 			<div className='Div-input'>
-				<Inputs><input className='Input-header' type="text" placeholder="Digitar Pesquisa" value={searchInput} onChange={(event) => setSearchInput(event.target.value)} /></Inputs>
+				<Inputs classname='Input-header' type="text" placeholder="Digitar Pesquisa" value={searchInput} onChange={(event) => setSearchInput(event.target.value)}/>  
 				<Buttons classname='Button-header' onClick={() => showProducts(searchInput)}>Pesquisar</Buttons>
 			</div>
 		</header>

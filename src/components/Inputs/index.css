@@ -2,18 +2,23 @@
 
 	height: 80%;
 	width: 90%;
-	background: #FFFFFF;
-	border: 2px solid #E0E0E0;
+	background: none;
+	border: none;
 	box-sizing: border-box;
-	border-radius: 8px;
-	left: 16px;
-	top: 65px;
 	font-family: 'Inter';
 	font-style: normal;
+	border-style: none;
+	
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 19px;
 	color: #E0E0E0;
-	padding-left: 3%;
 
+}
+
+textarea:focus, input:focus {
+
+	box-shadow: 0 0 0 0;
+	outline: 0;
+	
 }

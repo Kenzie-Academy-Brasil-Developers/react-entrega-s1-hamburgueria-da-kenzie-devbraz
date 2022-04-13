@@ -19,10 +19,12 @@ function App() {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [currentSale, setCurrentSale] = useState([])
   const [cartTotal, setCartTotal] = useState(0)
+
   const showProducts = (searchInput) => {
 
     const filter = products.filter((product) => product.name.toLowerCase() === searchInput.toLowerCase() || product.category.toLowerCase() === searchInput.toLowerCase())
-    setFilteredProducts(filter)
+    const includes = searchInput.includes(filter)
+    setFilteredProducts(includes)
 
   }
 
@@ -30,11 +32,7 @@ function App() {
 
     const finded = products.find((product) => product.id === productId)
     const findsale = currentSale.find((product) => product.id === productId)
-  
-
     {findsale? setCurrentSale([...currentSale]) : setCurrentSale([...currentSale, finded])}
-
-
 
   }
 
@@ -57,7 +55,6 @@ function App() {
     setCurrentSale([])
 
   }
-
 
   return (
 

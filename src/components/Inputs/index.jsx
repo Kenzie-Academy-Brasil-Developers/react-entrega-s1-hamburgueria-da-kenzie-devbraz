@@ -1,10 +1,10 @@
 import './index.css'
 
 
-function Inputs({children}) {
+function Inputs({classname, type, placeholder, value, onChange}) {
 
      return (
-          <>{children}</>
+          <input className={classname} type={type} placeholder={placeholder} value={value} onChange={onChange}/> 
      )
 
 }
